@@ -1,15 +1,13 @@
 
 # AI Picture Generator
 
-![AI Picture Generator Banner](https://via.placeholder.com/1600x900.png?text=AI+Picture+Generator+Web+App)
+![AI Picture Generator Banner](https://private-user-images.githubusercontent.com/24913656/344489486-68740f1b-9c52-43a7-a6e2-90389374f94f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3NzU1NjQsIm5iZiI6MTcxOTc3NTI2NCwicGF0aCI6Ii8yNDkxMzY1Ni8zNDQ0ODk0ODYtNjg3NDBmMWItOWM1Mi00M2E3LWE2ZTItOTAzODkzNzRmOTRmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjMwVDE5MjEwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFmZThjY2Q2YzFiNTA1MjQ5MmZmYWM3ZGI4Y2MzZjRiYTc4NWMyMTI1NWQ3YWFmNjU1ZjkzNDAyMDRhZWViMjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NHMN3kFliSiKr2gP9HePYylLVfXK-6xG0VdqF4ztekw)
 
 This project implements a simple web-based AI Picture Generator using HTML, CSS, and JavaScript. It allows users to input text descriptions and generates corresponding images using AI technology.
 
 ## Demo
 
 Check out the live demo: [AI Picture Generator](https://joe-shenouda.github.io/AI-Picture-Generator-simulated-/)
-
-![Demo GIF](https://media.giphy.com/media/QbumCX9HFFDew/giphy.gif)
 
 ## Features
 
@@ -38,8 +36,6 @@ The application consists of a single HTML file that includes embedded CSS and Ja
    - Advanced AI
    - Endless Creativity
    - Lightning Fast Generation
-
-![AI Creativity](https://via.placeholder.com/800x400.png?text=Endless+Creativity)
 
 ## Usage
 
@@ -75,8 +71,6 @@ The application consists of a single HTML file that includes embedded CSS and Ja
 
 This is a front-end demonstration. The actual image generation is simulated using placeholder images. To create a fully functional AI image generator, you would need to integrate with a backend service that provides AI image generation capabilities.
 
-![AI Technology](https://via.placeholder.com/800x400.png?text=AI+Technology+Integration)
-
 ## Author
 
 Made by Joe Shenouda - [LinkedIn Profile](https://www.linkedin.com/in/josephshenouda/)
@@ -92,5 +86,3 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-![Thank You](https://via.placeholder.com/800x400.png?text=Thank+You+for+your+Support)
