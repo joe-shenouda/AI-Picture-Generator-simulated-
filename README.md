@@ -1,6 +1,6 @@
 # AI Picture Generator
 
-![AI Picture Generator Banner](https://source.unsplash.com/random/1600x900/?ai,technology)
+![AI Picture Generator Banner](https://via.placeholder.com/1600x900.png?text=AI+Picture+Generator)
 
 This project implements a simple web-based AI Picture Generator using HTML, CSS, and JavaScript. It allows users to input text descriptions and generates corresponding images using AI technology.
 
@@ -8,7 +8,7 @@ This project implements a simple web-based AI Picture Generator using HTML, CSS,
 
 Check out the live demo: [AI Picture Generator](https://joe-shenouda.github.io/AI-Picture-Generator-simulated-/)
 
-![Demo GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJmd3ZxMm9vYXZjczh2aWl5aHgwc3RrYTVnZzA0bW1xdmdzazN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3vRmGmaaB6nAFnPO/giphy.gif)
+![Demo GIF](https://media.giphy.com/media/l3vRmGmaaB6nAFnPO/giphy.gif)
 
 ## Features
 
@@ -38,7 +38,7 @@ The application consists of a single HTML file that includes embedded CSS and Ja
    - Endless Creativity
    - Lightning Fast Generation
 
-![AI Creativity](https://source.unsplash.com/random/800x400/?ai,creativity)
+![AI Creativity](https://via.placeholder.com/800x400.png?text=AI+Creativity)
 
 ## Usage
 
@@ -74,7 +74,7 @@ The application consists of a single HTML file that includes embedded CSS and Ja
 
 This is a front-end demonstration. The actual image generation is simulated using placeholder images. To create a fully functional AI image generator, you would need to integrate with a backend service that provides AI image generation capabilities.
 
-![AI Technology](https://source.unsplash.com/random/800x400/?technology,future)
+![AI Technology](https://via.placeholder.com/800x400.png?text=AI+Technology)
 
 ## Author
 
@@ -92,4 +92,4 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 
 Give a ⭐️ if this project helped you!
 
-![Thank You](https://source.unsplash.com/random/800x400/?thanks,coding)
+![Thank You](https://via.placeholder.com/800x400.png?text=Thank+You)
