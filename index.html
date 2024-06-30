@@ -1,0 +1,117 @@
+<html><head><base href="https://pictures.maker/ai-generator">
+<title>AI Picture Generator | pictures.maker</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+  }
+  .generator {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #2980b9;
+  }
+  #result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #result img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  .feature i {
+    font-size: 2em;
+    color: #3498db;
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <h1>AI Picture Generator</h1>
+  
+  <div class="generator">
+    <form method="GET" action="https://pictures.maker/ai-generator/generate">
+      <textarea name="prompt" placeholder="Describe the image you want to generate..."></textarea>
+      <button type="submit">Generate Picture</button>
+    </form>
+  </div>
+
+  <div id="result">
+    <!-- Generated image will appear here -->
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <i class="fas fa-magic"></i>
+      <h3>Advanced AI</h3>
+      <p>Utilizes cutting-edge artificial intelligence to create stunning images from text descriptions.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-palette"></i>
+      <h3>Endless Creativity</h3>
+      <p>Generate any image you can imagine, from surreal landscapes to futuristic concepts.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-bolt"></i>
+      <h3>Lightning Fast</h3>
+      <p>Get your AI-generated images in seconds, perfect for rapid prototyping and ideation.</p>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const prompt = document.querySelector('textarea[name="prompt"]').value;
+      const resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = '<p>Generating your image...</p>';
+      
+      // Simulating API call and image generation
+      setTimeout(() => {
+        const imageUrl = `https://picsum.photos/800/600?random=${Date.now()}`;
+        resultDiv.innerHTML = `<img src="${imageUrl}" alt="AI generated image based on: ${prompt}">
+                               <p>AI-generated image based on your prompt: "${prompt}"</p>`;
+      }, 2000);
+    });
+  </script>
+
+  <footer>
+    <p>Made by Joe Shenouda <a href="https://www.linkedin.com/in/josephshenouda/">Cyber-Consult.org</a></p>
+  </footer>
+</body></html>
