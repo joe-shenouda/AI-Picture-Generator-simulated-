@@ -1,6 +1,14 @@
 # AI Picture Generator
 
+![AI Picture Generator Banner](https://source.unsplash.com/random/1600x900/?ai,technology)
+
 This project implements a simple web-based AI Picture Generator using HTML, CSS, and JavaScript. It allows users to input text descriptions and generates corresponding images using AI technology.
+
+## Demo
+
+Check out the live demo: [AI Picture Generator](https://joe-shenouda.github.io/AI-Picture-Generator-simulated-/)
+
+![Demo GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJmd3ZxMm9vYXZjczh2aWl5aHgwc3RrYTVnZzA0bW1xdmdzazN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3vRmGmaaB6nAFnPO/giphy.gif)
 
 ## Features
 
@@ -30,6 +38,8 @@ The application consists of a single HTML file that includes embedded CSS and Ja
    - Endless Creativity
    - Lightning Fast Generation
 
+![AI Creativity](https://source.unsplash.com/random/800x400/?ai,creativity)
+
 ## Usage
 
 1. Open the HTML file in a web browser.
@@ -52,17 +62,19 @@ The application consists of a single HTML file that includes embedded CSS and Ja
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/ai-picture-generator.git
+   git clone https://github.com/joe-shenouda/AI-Picture-Generator-simulated-.git
    ```
 2. Navigate to the project directory:
    ```
-   cd ai-picture-generator
+   cd AI-Picture-Generator-simulated-
    ```
 3. Open `index.html` in your web browser.
 
 ## Note
 
 This is a front-end demonstration. The actual image generation is simulated using placeholder images. To create a fully functional AI image generator, you would need to integrate with a backend service that provides AI image generation capabilities.
+
+![AI Technology](https://source.unsplash.com/random/800x400/?technology,future)
 
 ## Author
 
@@ -74,8 +86,10 @@ This project is open-source. Please ensure you have the necessary rights and per
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/ai-picture-generator/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/joe-shenouda/AI-Picture-Generator-simulated-/issues) if you want to contribute.
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+![Thank You](https://source.unsplash.com/random/800x400/?thanks,coding)
